@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+<form action="" method="post" id="registrationForm">
+<table>
+    <tr>
+        <th>First Name</th>
+        <td><input type="text" name="first_name" id="firstName">
+            <span id="firstNameError" style="color: red;"></span>
+        </td>
+
+    </tr>
+    <tr>
+        <th>Last Name</th>
+        <td><input type="text" name="last_name" id="lastName">
+            <span id="lastNameError" style="color: red;"></span>
+        </td>
+
+    </tr>
+    <tr>
+        <th>Email Address</th>
+        <td><input type="email" name="email_address" id="emailAddress">
+            <span id="emailAddressError" style="color: red;"></span>
+        </td>
+
+    </tr>
+    <tr>
+        <th>Password</th>
+        <td><input type="password" name="password" id="password">
+            <span id="passwordError" style="color: red;"></span>
+        </td>
+
+    </tr>
+    <tr>
+        <th>Confirm Password</th>
+        <td><input type="password" name="confirm_password" id="confirmPassword">
+            <span id="confirmPasswordError" style="color: red;"></span>
+        </td>
+
+    </tr>
+    <tr>
+        <th>District Name</th>
+        <td>
+            <select name="district_name" id="districtName">
+                <option >...Select District...</option>
+                <option value="dhaka">Dhaka</option>
+                <option value="khulna">Khulna</option>
+                <option value="savar">Savar</option>
+                <option value="dohar">Dohar</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <th></th>
+        <td><input type="submit" name="btn" id="btn"></td>
+    </tr>
+</table>
+</form>
+
+
+
+<script src="js/jquery-3.3.1.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
